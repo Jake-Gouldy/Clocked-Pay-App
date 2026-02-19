@@ -25,3 +25,26 @@ The UI is dark-mode first and intentionally minimal. I avoided clutter and tried
 It’s built with Flutter, uses a custom design system (no UI kits), and is structured to be scalable for future additions like tax handling and deeper analytics.
 
 This isn’t an accounting suite — it’s a focused tool for people who just need to get paid properly each week.
+
+
+## Screenshots
+
+<p align="center">
+  <img src="Screenshots/ProfileScreen.png" width="250"/><br/>
+  <strong>Profile Screen</strong>
+</p>
+
+<p align="center">
+  <img src="Screenshots/SettingsScreen.png" width="250"/><br/>
+  <strong>Settings Screen</strong>
+</p>
+
+<p align="center">
+  <img src="Screenshots/CustomerDialogue.png" width="250"/><br/>
+  <strong>Customer Dialogue</strong>
+</p>
+
+<p align="center">
+  <img src="Screenshots/LocationDialogue.png" width="250"/><br/>
+  <strong>Location Dialogue</strong>
+</p>
