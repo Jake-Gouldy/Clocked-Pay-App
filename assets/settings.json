@@ -1,0 +1,17 @@
+{
+  "country": "United Kingdom",
+  "hourlyOrDaily" : "Hours Worked",
+  "reminderFrequency": "None",
+  "averageDailyHours": null,
+  "averageStartTime" : null,
+  "averageFinishTime" : null,
+  "averageHourlyRate": null,
+  "averageDailyRate": null,
+  "averageDaysWorked": [],
+  "customers": [
+
+  ],
+  "locations": [
+
+  ]
+}
