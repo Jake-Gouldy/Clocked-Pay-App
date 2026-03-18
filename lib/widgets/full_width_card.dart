@@ -4,12 +4,16 @@ class FullWidthCard extends StatelessWidget {
   final Widget child;
   final EdgeInsetsGeometry padding;
   final EdgeInsetsGeometry margin;
+  final Color? color;
+  final bool? border;
 
   const FullWidthCard({
     super.key,
     required this.child,
     this.padding = const EdgeInsets.all(20),
     this.margin = EdgeInsets.zero,
+    this.color = const Color(0xFF1A1E22),
+    this.border = true,
   });
 
   @override
@@ -17,15 +21,17 @@ class FullWidthCard extends StatelessWidget {
     return Container(
       margin: margin,
       decoration: BoxDecoration(
-        color: const Color(0xFF1A1E22),
+        color: color,
 
         borderRadius: BorderRadius.circular(18),
 
         // Subtle edge definition (important in dark mode)
-        border: Border.all(
+        border: border!
+            ? Border.all(
           color: const Color(0xFF242A30),
           width: 1,
-        ),
+        )
+            : null,
 
         // Subtle depth (premium, not Material-heavy)
         boxShadow: const [

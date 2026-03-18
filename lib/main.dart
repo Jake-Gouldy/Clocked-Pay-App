@@ -153,7 +153,7 @@ void main() {
       // Routes are here mainly so I can jump around quickly while building screens.
       // A proper router/setup can come later when flows are locked in.
       routes: {
-        "/": (context) => const Settings(),
+        "/": (context) => const DebugScreen(),
         "/home": (context) => const Home(),
         "/earnings": (context) => const Earnings(),
         "/profile": (context) => const Profile(),

@@ -220,8 +220,8 @@ class _RightSideOfCardState extends State<RightSideOfCard> {
           CupertinoSwitch(
             value: _switchValue,
             onChanged: (v) => setState(() => _switchValue = v),
-            activeColor: const Color(0xFF3B82F6),
-            trackColor: const Color(0xFF2A2F36),
+            activeTrackColor: const Color(0xFF3B82F6),
+            inactiveTrackColor: const Color(0xFF2A2F36),
           ),
         ],
       ],
