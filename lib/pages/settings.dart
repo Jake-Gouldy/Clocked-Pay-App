@@ -182,8 +182,8 @@ class _CardRow extends StatelessWidget {
     this.onTapped,
   });
 
-  static const double _rowHeight = 56;
-  static const double _hPadding = 12;
+  static const double _rowHeight = 40;
+  static const double _hPadding = 4;
 
   @override
   Widget build(BuildContext context) {

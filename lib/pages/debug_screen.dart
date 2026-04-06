@@ -1,9 +1,5 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:clocked_pay/widgets/full_width_card.dart';
 import 'package:signature/signature.dart';
-import 'package:dotted_border/dotted_border.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'home.dart';
 import 'earnings.dart';

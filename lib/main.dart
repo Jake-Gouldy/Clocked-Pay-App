@@ -5,6 +5,7 @@ import 'package:clocked_pay/pages/earnings.dart';
 import 'package:clocked_pay/pages/profile.dart';
 import 'package:clocked_pay/pages/settings.dart';
 import 'package:clocked_pay/services/dialogues.dart';
+import 'package:clocked_pay/pages/main_shell.dart';
 
 /// App entry point.
 ///
@@ -83,7 +84,7 @@ void main() {
           labelLarge: TextStyle(
             fontSize: 15,
             height: 1.0,
-            color: Color(0xFFA9B2BC),
+            color: Colors.white,
             fontWeight: FontWeight.w500,
           ),
           labelMedium: TextStyle(
@@ -153,7 +154,8 @@ void main() {
       // Routes are here mainly so I can jump around quickly while building screens.
       // A proper router/setup can come later when flows are locked in.
       routes: {
-        "/": (context) => const DebugScreen(),
+        "/": (context) => const MainShell(),
+        "/main_shell": (context) => const MainShell(),
         "/home": (context) => const Home(),
         "/earnings": (context) => const Earnings(),
         "/profile": (context) => const Profile(),

@@ -30,6 +30,11 @@ This isn’t an accounting suite — it’s a focused tool for people who just n
 ## Screenshots
 
 <p align="center">
+  <img src="Screenshots/HomeScreen.png" width="250"/><br/>
+  <strong>Home Screen</strong>
+</p>
+
+<p align="center">
   <img src="Screenshots/ProfileScreen.png" width="250"/><br/>
   <strong>Profile Screen</strong>
 </p>
